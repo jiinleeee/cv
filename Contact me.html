@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+
+  <body>
+    <h1>My Contact Details</h1>
+    <br>
+
+  <h3>My fictional Address</h3>
+  <ul>
+    <li>경기도 안양시 만안구 경수대로 0000, 100동/ 우편번호 : 1111</li>
+    <li>Gyeonki-do Anyang-si Manan-gu Gyeonsudaeso 0000, 100/ Postal code : 1111</li>
+  </ul>
+  <h3>My fictional Phone number</h3>
+  <ul>
+    <li>010-0000-0000</li>
+  </ul>
+
+<form action="mailto:pinguk0543@gmail.com" method="post" enctype="text/plain"> <!-- the attribute called "action"
+                                                    what should happen when you click "submit"
+                                                   ----could be "mailto:"(mailaddress)
+                                                 in this case we don't need "class" attribute but need enctype="text/plain"-->
+<!-- in "name" we can put the same as what we've set in the label
+  then after we hit Submit, in the textarea all the things we put as a name will show up with the forms we have put.-->
+
+  <label>Your Name: </label>
+  <input type="text" name="yourName" value=""><br>
+  <label>Your Email: </label>
+  <input type="email" name="yourEmail" value=""><br>
+
+  <label>Your Message: </label><br>
+  <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+  <input type="submit">
+</form>
+  </body>
+</html>
+
+<!--
+  <form>
+    <label>Your Name:</label>
+    <input type="text" name="" value="">
+    <input type="submit" name="" value="">
+    <label>Your Password:</label>
+    <input type="password" name="" value="">
+              etc..
+  </form>
+
+-->
